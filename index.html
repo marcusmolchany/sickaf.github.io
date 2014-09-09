@@ -4,47 +4,56 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
 <html> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>sick.af</title>
-        <meta name="description" content="sick.af, llc">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>sick.af</title>
+    <meta name="description" content="sick.af, llc">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <link href="styles/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap core CSS -->
-        <link href="styles/css/custom.css" rel="stylesheet">
-        
-        <meta name="viewport" content="initial-scale = 1.0, user-scalable = no, width = device-width">
-	    <link rel="shortcut icon" href="images/icon.png">
+    <link href="styles/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap core CSS -->
+    <link href="styles/css/custom.css" rel="stylesheet">
 
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="initial-scale = 1.0, user-scalable = no, width = device-width">
+    <link rel="shortcut icon" href="images/icon.png">
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </head>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+  </head>
 
-    <body>
-        <div id="sickaf">
-            <img src="images/icon.png" id="logo" />
-            <div id="intro">
-                <p>Sick.AF</p>
+  <body>
+    <div class="container">
+      <div id="sickaf">
+        <div class="sickaf-header">
+          <img src="images/icon.png" id="sickaf-logo" />
+        </div>
+        <div id="sickaf-intro">
+            <p>Sick.AF</p>
+        </div>
+
+        <!-- two columns of text below the intro -->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="sickaf-timebomb sickaf-icon">
+              <img class="img-circle sickaf-img-circle" src="images/timebomb.jpg">
+              <h2>Timebomb</h2>
+              <p>Beat your friends.</p>
+              <p><a class="btn btn-default" href="#" role="button">Get it now &raquo;</a></p>
             </div>
+          </div> <!--/.col-lg-6 -->
+          <div class="col-lg-6">
+            <div class="sickaf-weather sickaf-icon">
+              <img class="img-circle sickaf-img-circle" src="images/weather.png">
+              <h2>Weather Candy</h2>
+              <p>Weather with a view.</p>
+              <p><a class="btn btn-default" href="#" role="button">Get it now &raquo;</a></p>
+            </div>
+          </div><!-- /.col-lg-6  -->
+        </div><!-- /.row -->
+      </div> <!-- /sickaf div> -->
+    </div>
 
-            <!-- two columns of text below the intro -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <img class="img-circle" src="images/timebomb.jpg" style="width: 140px; height: 140px;">
-                    <h2>Timebomb</h2>
-                    <p>Beat your friends.</p>
-                    <p><a class="btn btn-default" href="#" role="button">Get it now &raquo;</a></p>
-                </div><!-- /.col-lg-6 -->
-                <div class="col-lg-6">
-                    <img class="img-circle" src="images/weather.png" style="width: 140px; height: 140px;">
-                    <h2>Weather Candy</h2>
-                    <p>Weather with a view.</p>
-                    <p><a class="btn btn-default" href="#" role="button">Get it now &raquo;</a></p>
-                </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
-        </div> <!-- /sickaf div> -->
-    </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>

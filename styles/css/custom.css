@@ -1,3 +1,6 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
 
 body {
   font-size: 10px;
@@ -6,8 +9,15 @@ body {
   text-align: center;
 }
 
-@font-face {
-  font-family: 'Raleway', sans-serif;
+img {
+  height:150px;
+  width:150px;
+}
+
+h1 {
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 25px;
 }
 
 #sickaf {
@@ -19,28 +29,27 @@ body {
   max-width: 800px;
 }
 
-#intro{
-  font-size:40px;
-  padding: 50px 0px 0px 0px;
-}
-
-.img-circle{
-  margin-top: 40px;
-}
-
-#logo {
+#sickaf-logo {
   border-radius: 200px;
   height: 200px;
   width: 200px;
 }
 
-img {
-height:150px;
-width:150px;
+#sickaf-intro{
+  font-size:40px;
+  padding: 50px 0px 0px 0px;
 }
 
-h1 {
-	margin-left:auto;
-	margin-right:auto;
-  margin-bottom: 25px;
+.sickaf-img-circle{
+  margin-top: 40px;
+  width: 140px;
+  height: 140px;
+}
+
+.sickaf-timebomb {
+
+}
+
+.sickaf-weather {
+
 }
